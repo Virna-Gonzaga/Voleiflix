@@ -1,0 +1,135 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+/* Configurações gerais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+/*Header*/
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 6px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    list-style: none;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+}
+/* Principal*/
+.principal{    
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/olimpiada.jpg');
+
+    height: 490px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.principal .descricao{
+    margin-top:10px ;
+    margin-bottom:40px;
+
+}
+.principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+/*Botão*/
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+/*# Wrapper/container = Envelopar*/
+.container{
+    margin-left: 20px;
+}
+.principal .container{
+    width: 70%;
+}
+/*Carousel Eventos*/
+.box-eventos{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.titlee{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eventos{
+    margin: 15px;
+    margin-right: 10px ;
+}
+
+.carousel{
+    margin-top: 5px;
+}
+
+/*Carousel Galeria*/
+
+.galeria{
+    margin: 15px;
+    margin-right: 10px;
+}
+
+.box-galeria{
+    height: 190px;
+    width: 50px;
+    display: block;
+}
+
+.title{
+    margin: 10px;
+    margin-left: 10px;
+}
+
